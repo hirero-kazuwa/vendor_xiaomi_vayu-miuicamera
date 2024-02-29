@@ -46,7 +46,7 @@ dontaudit miui_camera default_prop:file { read };
 
 binder_call(miui_camera, hal_camera_default);
 
-get_prop(miui_camera, vendor_fp_prop);
+get_prop(miui_camera, vendor_fingerprint_prop);
 get_prop(miui_camera, vendor_display_prop);
 get_prop(miui_camera, vendor_audio_prop);
 get_prop(miui_camera, qemu_hw_prop);
